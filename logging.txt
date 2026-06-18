@@ -1,0 +1,87 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "tamil",
+    "phonenumber": "(+91) 983 893 3937",
+    "address": "log",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "french",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    }
+}
+HTTP/1.1 200 OK
+Date: Sun, 07 Jun 2026 04:08:27 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "d5ece71ceba5acfea9d9af2c5af771be",
+    "scope": "APP",
+    "reference": "96b0aef0b12673c2535d9ad25a67c10896b0aef0b12673c2535d9ad25a67c108",
+    "id": "96b0aef0b12673c2535d9ad25a67c108"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=d5ece71ceba5acfea9d9af2c5af771be
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=d5ece71ceba5acfea9d9af2c5af771be
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 07 Jun 2026 04:08:31 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 204
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "tamil",
+    "phone_number": "",
+    "address": "log",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "french"
+}

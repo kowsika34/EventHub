@@ -1,0 +1,136 @@
+{
+  "requests": [
+    {
+      "REGISTER": [
+        {
+          "email": "paalja@gmail.com",
+          "password": "sbvio89"
+        },
+        {
+          "email": "hivefor@gmail.com",
+          "password": "nbbvhk6"
+        },
+		{
+			"email": "vibhu@gmail.com",
+			"password": "bhbbbvhf"
+		}
+      ]
+    },
+	{
+		"createevent" :[
+			{
+				
+				  "title": "Tech Summit 2026",
+				  "description": "A premier technology conference.",
+				  "category": "Conference",
+				  "venue": "Bangalore International Centre",
+				  "city": "Bangalore",
+				  "eventDate": "2026-06-26T09:00:00.000Z",
+				  "price": 1500,
+				  "totalSeats": 500,
+				  "imageUrl": "https://example.com/banner.jpg"
+				
+			},
+			
+			{
+			  "title": "Tech core 2026",
+			  "description": "A premier core conference.",
+			  "category": "Conference",
+			  "venue": "Bangalore International Centre",
+			  "city": "Bangalore",
+			  "eventDate": "2026-06-26T09:00:00.000Z",
+			  "price": 1500,
+			  "totalSeats": 500,
+			  "imageUrl": "https://example.com/banner.jpg"
+			},
+			
+			{
+			  "title": "Tech eE 2026",
+			  "description": "A EE technology conference.",
+			  "category": "Conference",
+			  "venue": "Bangalore International Centre",
+			  "city": "Bangalore",
+			  "eventDate": "2026-06-26T09:00:00.000Z",
+			  "price": 1500,
+			  "totalSeats": 500,
+			  "imageUrl": "https://example.com/banner.jpg"
+			}
+		]
+	},
+	
+	{
+	   "UPDATEEVENT" :[
+				{
+					  
+					  "title": "Tech Summit 2026",
+					  "description": "A premier technology conference.",
+					  "category": "Conference",
+					  "venue": "Bangalore International Centre",
+					  "city": "Bangalore",
+					  "eventDate": "2026-06-26T09:00:00.000Z",
+					  "price": 1700,
+					  "totalSeats": 700,
+					  "imageUrl": "https://example.com/banner.jpg"
+					
+				},
+				
+				{
+				  "title": "Tech core 2026",
+				  "description": "A premier core conference.",
+				  "category": "Conference",
+				  "venue": "Bangalore International Centre",
+				  "city": "Bangalore",
+				  "eventDate": "2026-06-26T09:00:00.000Z",
+				  "price": 1700,
+				  "totalSeats": 700,
+				  "imageUrl": "https://example.com/banner.jpg"
+				},
+				
+				{
+				  "title": "Tech eE 2026",
+				  "description": "A EE technology conference.",
+				  "category": "Conference",
+				  "venue": "Bangalore International Centre",
+				  "city": "Bangalore",
+				  "eventDate": "2026-06-26T09:00:00.000Z",
+				  "price": 1700,
+				  "totalSeats": 700,
+				  "imageUrl": "https://example.com/banner.jpg"
+				}
+			]
+		},
+		{
+			"BookingEvent" :[
+				{
+					
+					  
+					  "customerName": "Priya Sharmala",
+					  "customerEmail": "priya.sharmala@email.com",
+					  "customerPhone": "+91-9876543210",
+					  "quantity": 2
+					
+				},
+				
+				{
+									
+					
+					 "customerName": "Priya priya",
+					 "customerEmail": "priya.paa@email.com",
+					 "customerPhone": "+91-9876563210",
+					"quantity": 2
+									
+				},
+								
+				{
+													
+						
+						 "customerName": "Priya Sheker",
+						"customerEmail": "priya.sheker@email.com",
+						 "customerPhone": "+91-9889543210",
+						"quantity": 2
+													
+					}
+			]
+		}
+  ]
+}
