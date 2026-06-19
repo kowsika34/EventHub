@@ -19,7 +19,7 @@
     <version>3.5.3</version>
    <configuration>
      <suiteXmlFiles>
-       <suiteXmlFile>testng.xml</suiteXmlFile>
+       <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
      </suiteXmlFiles>
    </configuration>
   </plugin>
@@ -78,6 +78,14 @@
     <version>7.12.0</version>
     <scope>test</scope>
 </dependency>
+
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.34.3</version>
+</dependency>
+
 
 <!-- Source: https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
